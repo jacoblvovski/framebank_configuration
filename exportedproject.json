@@ -1,0 +1,1206 @@
+{
+  "name" : "FrameBank",
+  "slug" : "admin",
+  "description" : "This project has no pre-defined layers. You will only be able to annotate after you have defined annotation layers in the project settings.",
+  "mode" : "ANNOTATION",
+  "version" : 1,
+  "default-preferences" : [ {
+    "name" : "annotation/editor",
+    "traits" : "{\"defaultEditor\":null,\"preferencesAccessAllowed\":true}"
+  }, {
+    "name" : "annotation/editor/annotation-sidebar/manager",
+    "traits" : "{\"pinnedGroups\":[]}"
+  }, {
+    "name" : "annotation/editor/brat/manager",
+    "traits" : "{\"changingScriptDirectionAllowed\":false,\"defaultPageSize\":10}"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":null,\"expanded\":false}"
+  }, {
+    "name" : "annotation/search",
+    "traits" : "{\"caseSensitiveDocumentText\":false,\"caseSensitiveFeatureValues\":true}"
+  } ],
+  "knowledge_bases" : [ ],
+  "external_search" : [ ],
+  "curation_workflow" : {
+    "mergeStrategy" : "completeAgreementNonStacked",
+    "mergeStrategyTraits" : null
+  },
+  "project_users" : [ ],
+  "recommenders" : [ ],
+  "learning_records" : [ ],
+  "gazeteers" : [ ],
+  "workload_manager" : {
+    "traits" : null,
+    "type" : "matrix"
+  },
+  "user-preferences" : [ {
+    "name" : "annotation/layout",
+    "traits" : "{\"sidebarSizeLeft\":20,\"sidebarSizeRight\":20}",
+    "user" : "admin"
+  }, {
+    "name" : "client-side/annotation/annotation-browser-sidebar",
+    "traits" : "{\"mode\":\"by-label\",\"sortByScore\":true,\"recommendationsFirst\":false}",
+    "user" : "admin"
+  }, {
+    "name" : "annotation/left-sidebar",
+    "traits" : "{\"selectedTab\":\"layerVisibilitySidebarFactory\",\"expanded\":true}",
+    "user" : "admin"
+  }, {
+    "name" : "client-side/annotation/apache-annotator-editor",
+    "traits" : "{\"showLabels\":false,\"showAggregatedLabels\":true,\"showEmptyHighlights\":false,\"showDocumentStructure\":false,\"showImages\":true,\"showTables\":true,\"documentStructureWidth\":0.2}",
+    "user" : "admin"
+  }, {
+    "name" : "annotation/layer-anchoring-mode",
+    "traits" : "{\"anchoringModes\":{\"2\":\"TOKENS\",\"3\":\"TOKENS\"}}",
+    "user" : "admin"
+  }, {
+    "name" : "annotation/layers",
+    "traits" : "{\"layerColoringStrategy\":{\"0\":\"GRAY\",\"1\":\"GRAY\",\"2\":\"STATIC_PASTELLE\"},\"readonlyLayerColoringStrategy\":\"LEGACY\",\"hiddenLayers\":[],\"hiddenFeatures\":[],\"hiddenFeatureValues\":{}}",
+    "user" : "admin"
+  } ],
+  "source_documents" : [ {
+    "name" : "example.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1757881589130,
+    "updated" : 1757881598317
+  }, {
+    "name" : "example_copy.xmi",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1757948489214,
+    "updated" : 1757948507017
+  }, {
+    "name" : "output_annotation.xmi",
+    "format" : "xmi",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1758208578673,
+    "updated" : 1758208589974
+  }, {
+    "name" : "фан-текст.txt",
+    "format" : "text",
+    "state" : "ANNOTATION_IN_PROGRESS",
+    "timestamp" : null,
+    "created" : 1757878933570,
+    "updated" : 1757878945171
+  } ],
+  "annotation_documents" : [ {
+    "name" : "example.txt",
+    "user" : "admin",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1757881598291,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1757881598130,
+    "updated" : 1757881598292
+  }, {
+    "name" : "example_copy.xmi",
+    "user" : "admin",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1757948506968,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1757948506710,
+    "updated" : 1757948506974
+  }, {
+    "name" : "фан-текст.txt",
+    "user" : "admin",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1758209899554,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1757878944999,
+    "updated" : 1758209899556
+  }, {
+    "name" : "output_annotation.xmi",
+    "user" : "admin",
+    "state" : "IN_PROGRESS",
+    "timestamp" : 1759516861021,
+    "annotatorState" : "IN_PROGRESS",
+    "annotatorComment" : null,
+    "sentence_accessed" : 0,
+    "created" : 1758208589879,
+    "updated" : 1759516861023
+  } ],
+  "project_permissions" : [ {
+    "level" : "ADMIN",
+    "user" : "admin"
+  }, {
+    "level" : "CURATOR",
+    "user" : "admin"
+  }, {
+    "level" : "USER",
+    "user" : "admin"
+  } ],
+  "tag_sets" : [ {
+    "name" : "Word",
+    "description" : null,
+    "language" : null,
+    "tags" : [ {
+      "tag_name" : "<w></w>",
+      "tag_description" : null
+    } ],
+    "create_tag" : false
+  }, {
+    "name" : "roles",
+    "description" : "roles",
+    "language" : "Russian",
+    "tags" : [ {
+      "tag_name" : "агенс",
+      "tag_description" : "агенс\r"
+    }, {
+      "tag_name" : "адресат",
+      "tag_description" : "адресат\r"
+    }, {
+      "tag_name" : "альтернатива",
+      "tag_description" : "альтернатива\r"
+    }, {
+      "tag_name" : "аспект",
+      "tag_description" : "аспект\r"
+    }, {
+      "tag_name" : "атрибут",
+      "tag_description" : "атрибут\r"
+    }, {
+      "tag_name" : "аудитория",
+      "tag_description" : "аудитория\r"
+    }, {
+      "tag_name" : "бенефициант",
+      "tag_description" : "бенефициант\r"
+    }, {
+      "tag_name" : "валидность",
+      "tag_description" : "валидность\r"
+    }, {
+      "tag_name" : "вводное",
+      "tag_description" : "вводное\r"
+    }, {
+      "tag_name" : "вероятность",
+      "tag_description" : "вероятность\r"
+    }, {
+      "tag_name" : "вместилище",
+      "tag_description" : "вместилище\r"
+    }, {
+      "tag_name" : "внешняя необходимость",
+      "tag_description" : "внешняя необходимость\r"
+    }, {
+      "tag_name" : "внутренняя необходимость",
+      "tag_description" : "внутренняя необходимость\r"
+    }, {
+      "tag_name" : "возможность",
+      "tag_description" : "возможность\r"
+    }, {
+      "tag_name" : "возможный",
+      "tag_description" : "возможный\r"
+    }, {
+      "tag_name" : "возраст",
+      "tag_description" : "возраст\r"
+    }, {
+      "tag_name" : "воля",
+      "tag_description" : "воля\r"
+    }, {
+      "tag_name" : "восприятие",
+      "tag_description" : "восприятие\r"
+    }, {
+      "tag_name" : "время",
+      "tag_description" : "время\r"
+    }, {
+      "tag_name" : "время наступления",
+      "tag_description" : "время наступления\r"
+    }, {
+      "tag_name" : "говорящий",
+      "tag_description" : "говорящий\r"
+    }, {
+      "tag_name" : "громкость",
+      "tag_description" : "громкость\r"
+    }, {
+      "tag_name" : "движение",
+      "tag_description" : "движение\r"
+    }, {
+      "tag_name" : "деепричастный оборот",
+      "tag_description" : "деепричастный оборот\r"
+    }, {
+      "tag_name" : "дейксис",
+      "tag_description" : "дейксис\r"
+    }, {
+      "tag_name" : "действие",
+      "tag_description" : "действие\r"
+    }, {
+      "tag_name" : "депиктив",
+      "tag_description" : "депиктив\r"
+    }, {
+      "tag_name" : "детерминант",
+      "tag_description" : "детерминант\r"
+    }, {
+      "tag_name" : "дискурс",
+      "tag_description" : "дискурс\r"
+    }, {
+      "tag_name" : "дистрибутивность",
+      "tag_description" : "дистрибутивность\r"
+    }, {
+      "tag_name" : "длительность",
+      "tag_description" : "длительность\r"
+    }, {
+      "tag_name" : "документ",
+      "tag_description" : "документ\r"
+    }, {
+      "tag_name" : "долженствование",
+      "tag_description" : "долженствование\r"
+    }, {
+      "tag_name" : "дополнитель",
+      "tag_description" : "дополнитель\r"
+    }, {
+      "tag_name" : "достижение цели",
+      "tag_description" : "достижение цели\r"
+    }, {
+      "tag_name" : "желание",
+      "tag_description" : "желание\r"
+    }, {
+      "tag_name" : "желательность",
+      "tag_description" : "желательность\r"
+    }, {
+      "tag_name" : "зависимость",
+      "tag_description" : "зависимость\r"
+    }, {
+      "tag_name" : "заместитель",
+      "tag_description" : "заместитель\r"
+    }, {
+      "tag_name" : "замещаемое",
+      "tag_description" : "замещаемое\r"
+    }, {
+      "tag_name" : "замещение",
+      "tag_description" : "замещение\r"
+    }, {
+      "tag_name" : "запах",
+      "tag_description" : "запах\r"
+    }, {
+      "tag_name" : "запрет",
+      "tag_description" : "запрет\r"
+    }, {
+      "tag_name" : "звук",
+      "tag_description" : "звук\r"
+    }, {
+      "tag_name" : "значение параметра",
+      "tag_description" : "значение параметра\r"
+    }, {
+      "tag_name" : "императив",
+      "tag_description" : "императив\r"
+    }, {
+      "tag_name" : "инструмент",
+      "tag_description" : "инструмент\r"
+    }, {
+      "tag_name" : "интеллектуальное качество",
+      "tag_description" : "интеллектуальное качество\r"
+    }, {
+      "tag_name" : "интенсивность",
+      "tag_description" : "интенсивность\r"
+    }, {
+      "tag_name" : "интенсификатор",
+      "tag_description" : "интенсификатор\r"
+    }, {
+      "tag_name" : "интервал",
+      "tag_description" : "интервал\r"
+    }, {
+      "tag_name" : "интерпретация",
+      "tag_description" : "интерпретация\r"
+    }, {
+      "tag_name" : "источник",
+      "tag_description" : "источник\r"
+    }, {
+      "tag_name" : "источник вещества",
+      "tag_description" : "источник вещества\r"
+    }, {
+      "tag_name" : "источник запаха",
+      "tag_description" : "источник запаха\r"
+    }, {
+      "tag_name" : "источник звука",
+      "tag_description" : "источник звука\r"
+    }, {
+      "tag_name" : "источник света",
+      "tag_description" : "источник света\r"
+    }, {
+      "tag_name" : "источник цитации",
+      "tag_description" : "источник цитации\r"
+    }, {
+      "tag_name" : "исходная точка",
+      "tag_description" : "исходная точка\r"
+    }, {
+      "tag_name" : "исходный посессор",
+      "tag_description" : "исходный посессор\r"
+    }, {
+      "tag_name" : "каритив",
+      "tag_description" : "каритив\r"
+    }, {
+      "tag_name" : "категоричность",
+      "tag_description" : "категоричность\r"
+    }, {
+      "tag_name" : "каузативный",
+      "tag_description" : "каузативный\r"
+    }, {
+      "tag_name" : "каузатор",
+      "tag_description" : "каузатор\r"
+    }, {
+      "tag_name" : "каузация",
+      "tag_description" : "каузация\r"
+    }, {
+      "tag_name" : "качество",
+      "tag_description" : "качество\r"
+    }, {
+      "tag_name" : "качество субъекта психологического состояния",
+      "tag_description" : "качество субъекта психологического состояния\r"
+    }, {
+      "tag_name" : "квазиинструмент",
+      "tag_description" : "квазиинструмент\r"
+    }, {
+      "tag_name" : "клауза",
+      "tag_description" : "клауза\r"
+    }, {
+      "tag_name" : "количество",
+      "tag_description" : "количество\r"
+    }, {
+      "tag_name" : "комитатив",
+      "tag_description" : "комитатив\r"
+    }, {
+      "tag_name" : "конечная ситуация",
+      "tag_description" : "конечная ситуация\r"
+    }, {
+      "tag_name" : "конечная точка",
+      "tag_description" : "конечная точка\r"
+    }, {
+      "tag_name" : "конечное состояние",
+      "tag_description" : "конечное состояние\r"
+    }, {
+      "tag_name" : "конечный посессор",
+      "tag_description" : "конечный посессор\r"
+    }, {
+      "tag_name" : "контрагент",
+      "tag_description" : "контрагент\r"
+    }, {
+      "tag_name" : "контрагент социального отношения",
+      "tag_description" : "контрагент социального отношения\r"
+    }, {
+      "tag_name" : "контролер",
+      "tag_description" : "контролер\r"
+    }, {
+      "tag_name" : "контроль сложный",
+      "tag_description" : "контроль сложный\r"
+    }, {
+      "tag_name" : "кратность",
+      "tag_description" : "кратность\r"
+    }, {
+      "tag_name" : "лидер",
+      "tag_description" : "лидер\r"
+    }, {
+      "tag_name" : "лицо",
+      "tag_description" : "лицо\r"
+    }, {
+      "tag_name" : "логический вывод",
+      "tag_description" : "логический вывод\r"
+    }, {
+      "tag_name" : "малефициант",
+      "tag_description" : "малефициант\r"
+    }, {
+      "tag_name" : "ментальный",
+      "tag_description" : "ментальный\r"
+    }, {
+      "tag_name" : "мера",
+      "tag_description" : "мера\r"
+    }, {
+      "tag_name" : "место",
+      "tag_description" : "место\r"
+    }, {
+      "tag_name" : "метафорический субъект психологического состояния",
+      "tag_description" : "метафорический субъект психологического состояния\r"
+    }, {
+      "tag_name" : "мнение",
+      "tag_description" : "мнение\r"
+    }, {
+      "tag_name" : "множество",
+      "tag_description" : "множество\r"
+    }, {
+      "tag_name" : "модальная рамка",
+      "tag_description" : "модальная рамка\r"
+    }, {
+      "tag_name" : "момент",
+      "tag_description" : "момент\r"
+    }, {
+      "tag_name" : "момент времени",
+      "tag_description" : "момент времени\r"
+    }, {
+      "tag_name" : "момент наступления ситуации",
+      "tag_description" : "момент наступления ситуации\r"
+    }, {
+      "tag_name" : "момент наступления события",
+      "tag_description" : "момент наступления события\r"
+    }, {
+      "tag_name" : "мотивировка",
+      "tag_description" : "мотивировка\r"
+    }, {
+      "tag_name" : "намерение",
+      "tag_description" : "намерение\r"
+    }, {
+      "tag_name" : "намеренность",
+      "tag_description" : "намеренность\r"
+    }, {
+      "tag_name" : "направление",
+      "tag_description" : "направление\r"
+    }, {
+      "tag_name" : "начальная точка",
+      "tag_description" : "начальная точка\r"
+    }, {
+      "tag_name" : "необходимость",
+      "tag_description" : "необходимость\r"
+    }, {
+      "tag_name" : "неожиданность",
+      "tag_description" : "неожиданность\r"
+    }, {
+      "tag_name" : "непосредственность",
+      "tag_description" : "непосредственность\r"
+    }, {
+      "tag_name" : "носитель информации",
+      "tag_description" : "носитель информации\r"
+    }, {
+      "tag_name" : "носитель признака",
+      "tag_description" : "носитель признака\r"
+    }, {
+      "tag_name" : "обладаемое",
+      "tag_description" : "обладаемое\r"
+    }, {
+      "tag_name" : "образ действия",
+      "tag_description" : "образ действия\r"
+    }, {
+      "tag_name" : "образ действия: звук",
+      "tag_description" : "образ действия: звук\r"
+    }, {
+      "tag_name" : "обращение",
+      "tag_description" : "обращение\r"
+    }, {
+      "tag_name" : "обстоятельство",
+      "tag_description" : "обстоятельство\r"
+    }, {
+      "tag_name" : "объект подозрения",
+      "tag_description" : "объект подозрения\r"
+    }, {
+      "tag_name" : "ограничение",
+      "tag_description" : "ограничение\r"
+    }, {
+      "tag_name" : "одежда",
+      "tag_description" : "одежда\r"
+    }, {
+      "tag_name" : "одновременность",
+      "tag_description" : "одновременность\r"
+    }, {
+      "tag_name" : "ожидаемость",
+      "tag_description" : "ожидаемость\r"
+    }, {
+      "tag_name" : "опора",
+      "tag_description" : "опора\r"
+    }, {
+      "tag_name" : "опосредованность",
+      "tag_description" : "опосредованность\r"
+    }, {
+      "tag_name" : "ориентация",
+      "tag_description" : "ориентация\r"
+    }, {
+      "tag_name" : "основание",
+      "tag_description" : "основание\r"
+    }, {
+      "tag_name" : "отрицание",
+      "tag_description" : "отрицание\r"
+    }, {
+      "tag_name" : "охват",
+      "tag_description" : "охват\r"
+    }, {
+      "tag_name" : "оценка",
+      "tag_description" : "оценка\r"
+    }, {
+      "tag_name" : "оценка последствий",
+      "tag_description" : "оценка последствий\r"
+    }, {
+      "tag_name" : "очередь",
+      "tag_description" : "очередь\r"
+    }, {
+      "tag_name" : "параметр",
+      "tag_description" : "параметр\r"
+    }, {
+      "tag_name" : "пациенс",
+      "tag_description" : "пациенс\r"
+    }, {
+      "tag_name" : "пациенс перемещения",
+      "tag_description" : "пациенс перемещения\r"
+    }, {
+      "tag_name" : "пациенс социального взаимодействия",
+      "tag_description" : "пациенс социального взаимодействия\r"
+    }, {
+      "tag_name" : "пациенс социального отношения",
+      "tag_description" : "пациенс социального отношения\r"
+    }, {
+      "tag_name" : "период времени",
+      "tag_description" : "период времени\r"
+    }, {
+      "tag_name" : "пермиссив",
+      "tag_description" : "пермиссив\r"
+    }, {
+      "tag_name" : "перспектива",
+      "tag_description" : "перспектива\r"
+    }, {
+      "tag_name" : "план",
+      "tag_description" : "план\r"
+    }, {
+      "tag_name" : "планирование",
+      "tag_description" : "планирование\r"
+    }, {
+      "tag_name" : "побуждение",
+      "tag_description" : "побуждение\r"
+    }, {
+      "tag_name" : "подвергающаяся воздействию часть пациенса",
+      "tag_description" : "подвергающаяся воздействию часть пациенса\r"
+    }, {
+      "tag_name" : "позволение",
+      "tag_description" : "позволение\r"
+    }, {
+      "tag_name" : "положение тела",
+      "tag_description" : "положение тела\r"
+    }, {
+      "tag_name" : "помощь",
+      "tag_description" : "помощь\r"
+    }, {
+      "tag_name" : "попытка",
+      "tag_description" : "попытка\r"
+    }, {
+      "tag_name" : "порядок",
+      "tag_description" : "порядок\r"
+    }, {
+      "tag_name" : "посессивность",
+      "tag_description" : "посессивность\r"
+    }, {
+      "tag_name" : "посессивный",
+      "tag_description" : "посессивный\r"
+    }, {
+      "tag_name" : "посессор",
+      "tag_description" : "посессор\r"
+    }, {
+      "tag_name" : "последовательность",
+      "tag_description" : "последовательность\r"
+    }, {
+      "tag_name" : "последующая ситуация",
+      "tag_description" : "последующая ситуация\r"
+    }, {
+      "tag_name" : "последующее",
+      "tag_description" : "последующее\r"
+    }, {
+      "tag_name" : "потенциальная угроза",
+      "tag_description" : "потенциальная угроза\r"
+    }, {
+      "tag_name" : "потенциальный агенс",
+      "tag_description" : "потенциальный агенс\r"
+    }, {
+      "tag_name" : "потенциальный контрагент",
+      "tag_description" : "потенциальный контрагент\r"
+    }, {
+      "tag_name" : "потенциальный пациенс",
+      "tag_description" : "потенциальный пациенс\r"
+    }, {
+      "tag_name" : "потенциальный эффектор",
+      "tag_description" : "потенциальный эффектор\r"
+    }, {
+      "tag_name" : "пояснение",
+      "tag_description" : "пояснение\r"
+    }, {
+      "tag_name" : "преграда",
+      "tag_description" : "преграда\r"
+    }, {
+      "tag_name" : "предел",
+      "tag_description" : "предел\r"
+    }, {
+      "tag_name" : "предмет",
+      "tag_description" : "предмет\r"
+    }, {
+      "tag_name" : "предмет высказывания",
+      "tag_description" : "предмет высказывания\r"
+    }, {
+      "tag_name" : "предмет мысли",
+      "tag_description" : "предмет мысли\r"
+    }, {
+      "tag_name" : "предмет оценки",
+      "tag_description" : "предмет оценки\r"
+    }, {
+      "tag_name" : "предположение",
+      "tag_description" : "предположение\r"
+    }, {
+      "tag_name" : "предшествующая ситуация",
+      "tag_description" : "предшествующая ситуация\r"
+    }, {
+      "tag_name" : "прекращение",
+      "tag_description" : "прекращение\r"
+    }, {
+      "tag_name" : "преодоление препятствия",
+      "tag_description" : "преодоление препятствия\r"
+    }, {
+      "tag_name" : "препятствие",
+      "tag_description" : "препятствие\r"
+    }, {
+      "tag_name" : "преследуемое",
+      "tag_description" : "преследуемое\r"
+    }, {
+      "tag_name" : "признак",
+      "tag_description" : "признак\r"
+    }, {
+      "tag_name" : "признак действия",
+      "tag_description" : "признак действия\r"
+    }, {
+      "tag_name" : "пример",
+      "tag_description" : "пример\r"
+    }, {
+      "tag_name" : "причина",
+      "tag_description" : "причина\r"
+    }, {
+      "tag_name" : "причина фоновой ситуации",
+      "tag_description" : "причина фоновой ситуации\r"
+    }, {
+      "tag_name" : "противопоставление",
+      "tag_description" : "противопоставление\r"
+    }, {
+      "tag_name" : "проход",
+      "tag_description" : "проход\r"
+    }, {
+      "tag_name" : "прямая речь",
+      "tag_description" : "прямая речь\r"
+    }, {
+      "tag_name" : "психологическое состояние",
+      "tag_description" : "психологическое состояние\r"
+    }, {
+      "tag_name" : "размер",
+      "tag_description" : "размер\r"
+    }, {
+      "tag_name" : "разрешение",
+      "tag_description" : "разрешение\r"
+    }, {
+      "tag_name" : "расстояние",
+      "tag_description" : "расстояние\r"
+    }, {
+      "tag_name" : "результат",
+      "tag_description" : "результат\r"
+    }, {
+      "tag_name" : "ресурс",
+      "tag_description" : "ресурс\r"
+    }, {
+      "tag_name" : "речь",
+      "tag_description" : "речь\r"
+    }, {
+      "tag_name" : "самостоятельность",
+      "tag_description" : "самостоятельность\r"
+    }, {
+      "tag_name" : "свет",
+      "tag_description" : "свет\r"
+    }, {
+      "tag_name" : "свойство",
+      "tag_description" : "свойство\r"
+    }, {
+      "tag_name" : "свойство причины",
+      "tag_description" : "свойство причины\r"
+    }, {
+      "tag_name" : "связка",
+      "tag_description" : "связка\r"
+    }, {
+      "tag_name" : "сериальная конструкция",
+      "tag_description" : "сериальная конструкция\r"
+    }, {
+      "tag_name" : "сила",
+      "tag_description" : "сила\r"
+    }, {
+      "tag_name" : "ситуация",
+      "tag_description" : "ситуация\r"
+    }, {
+      "tag_name" : "ситуация в фокусе",
+      "tag_description" : "ситуация в фокусе\r"
+    }, {
+      "tag_name" : "скорость",
+      "tag_description" : "скорость\r"
+    }, {
+      "tag_name" : "следствие",
+      "tag_description" : "следствие\r"
+    }, {
+      "tag_name" : "сложность",
+      "tag_description" : "сложность\r"
+    }, {
+      "tag_name" : "снятая утвердительность",
+      "tag_description" : "снятая утвердительность\r"
+    }, {
+      "tag_name" : "совпадение",
+      "tag_description" : "совпадение\r"
+    }, {
+      "tag_name" : "содержание высказывания",
+      "tag_description" : "содержание высказывания\r"
+    }, {
+      "tag_name" : "содержание действия",
+      "tag_description" : "содержание действия\r"
+    }, {
+      "tag_name" : "содержание мысли",
+      "tag_description" : "содержание мысли\r"
+    }, {
+      "tag_name" : "содержимое",
+      "tag_description" : "содержимое\r"
+    }, {
+      "tag_name" : "сомнение",
+      "tag_description" : "сомнение\r"
+    }, {
+      "tag_name" : "сопричисленное",
+      "tag_description" : "сопричисленное\r"
+    }, {
+      "tag_name" : "сопутствующая ситуация",
+      "tag_description" : "сопутствующая ситуация\r"
+    }, {
+      "tag_name" : "состояние",
+      "tag_description" : "состояние\r"
+    }, {
+      "tag_name" : "социальная среда",
+      "tag_description" : "социальная среда\r"
+    }, {
+      "tag_name" : "социальное взаимодействие",
+      "tag_description" : "социальное взаимодействие\r"
+    }, {
+      "tag_name" : "социальное отношение",
+      "tag_description" : "социальное отношение\r"
+    }, {
+      "tag_name" : "способ",
+      "tag_description" : "способ\r"
+    }, {
+      "tag_name" : "способность",
+      "tag_description" : "способность\r"
+    }, {
+      "tag_name" : "сравнение",
+      "tag_description" : "сравнение\r"
+    }, {
+      "tag_name" : "среда",
+      "tag_description" : "среда\r"
+    }, {
+      "tag_name" : "средство",
+      "tag_description" : "средство\r"
+    }, {
+      "tag_name" : "срок",
+      "tag_description" : "срок\r"
+    }, {
+      "tag_name" : "срок наступления",
+      "tag_description" : "срок наступления\r"
+    }, {
+      "tag_name" : "статус",
+      "tag_description" : "статус\r"
+    }, {
+      "tag_name" : "степень",
+      "tag_description" : "степень\r"
+    }, {
+      "tag_name" : "стимул",
+      "tag_description" : "стимул\r"
+    }, {
+      "tag_name" : "субъект",
+      "tag_description" : "субъект\r"
+    }, {
+      "tag_name" : "субъект восприятия",
+      "tag_description" : "субъект восприятия\r"
+    }, {
+      "tag_name" : "субъект ментального состояния",
+      "tag_description" : "субъект ментального состояния\r"
+    }, {
+      "tag_name" : "субъект модальности",
+      "tag_description" : "субъект модальности\r"
+    }, {
+      "tag_name" : "субъект оценки",
+      "tag_description" : "субъект оценки\r"
+    }, {
+      "tag_name" : "субъект перемещения",
+      "tag_description" : "субъект перемещения\r"
+    }, {
+      "tag_name" : "субъект поведения",
+      "tag_description" : "субъект поведения\r"
+    }, {
+      "tag_name" : "субъект психологического ощущения",
+      "tag_description" : "субъект психологического ощущения\r"
+    }, {
+      "tag_name" : "субъект психологического состояния",
+      "tag_description" : "субъект психологического состояния\r"
+    }, {
+      "tag_name" : "субъект психологической реакции",
+      "tag_description" : "субъект психологической реакции\r"
+    }, {
+      "tag_name" : "субъект ситуации в фокусе",
+      "tag_description" : "субъект ситуации в фокусе\r"
+    }, {
+      "tag_name" : "субъект социального отношения",
+      "tag_description" : "субъект социального отношения\r"
+    }, {
+      "tag_name" : "субъект физиологического ощущения",
+      "tag_description" : "субъект физиологического ощущения\r"
+    }, {
+      "tag_name" : "субъект физиологического состояния",
+      "tag_description" : "субъект физиологического состояния\r"
+    }, {
+      "tag_name" : "субъект физиологической реакции",
+      "tag_description" : "субъект физиологической реакции\r"
+    }, {
+      "tag_name" : "существование",
+      "tag_description" : "существование\r"
+    }, {
+      "tag_name" : "сфера",
+      "tag_description" : "сфера\r"
+    }, {
+      "tag_name" : "тема",
+      "tag_description" : "тема\r"
+    }, {
+      "tag_name" : "то, за что платят",
+      "tag_description" : "то, за что платят\r"
+    }, {
+      "tag_name" : "то, что выделяется",
+      "tag_description" : "то, что выделяется\r"
+    }, {
+      "tag_name" : "то, что теряется",
+      "tag_description" : "то, что теряется\r"
+    }, {
+      "tag_name" : "тождество",
+      "tag_description" : "тождество\r"
+    }, {
+      "tag_name" : "тот, кто платит",
+      "tag_description" : "тот, кто платит\r"
+    }, {
+      "tag_name" : "точка контакта",
+      "tag_description" : "точка контакта\r"
+    }, {
+      "tag_name" : "точность",
+      "tag_description" : "точность\r"
+    }, {
+      "tag_name" : "траектория",
+      "tag_description" : "траектория\r"
+    }, {
+      "tag_name" : "трудность",
+      "tag_description" : "трудность\r"
+    }, {
+      "tag_name" : "угроза",
+      "tag_description" : "угроза\r"
+    }, {
+      "tag_name" : "узуальность",
+      "tag_description" : "узуальность\r"
+    }, {
+      "tag_name" : "указательный",
+      "tag_description" : "указательный\r"
+    }, {
+      "tag_name" : "уместность",
+      "tag_description" : "уместность\r"
+    }, {
+      "tag_name" : "уподобление",
+      "tag_description" : "уподобление\r"
+    }, {
+      "tag_name" : "уровень",
+      "tag_description" : "уровень\r"
+    }, {
+      "tag_name" : "усиление",
+      "tag_description" : "усиление\r"
+    }, {
+      "tag_name" : "условие",
+      "tag_description" : "условие\r"
+    }, {
+      "tag_name" : "успех",
+      "tag_description" : "успех\r"
+    }, {
+      "tag_name" : "уступка",
+      "tag_description" : "уступка\r"
+    }, {
+      "tag_name" : "уточнение",
+      "tag_description" : "уточнение\r"
+    }, {
+      "tag_name" : "фаза",
+      "tag_description" : "фаза\r"
+    }, {
+      "tag_name" : "фазовый",
+      "tag_description" : "фазовый\r"
+    }, {
+      "tag_name" : "физиологическое состояние",
+      "tag_description" : "физиологическое состояние\r"
+    }, {
+      "tag_name" : "фокус",
+      "tag_description" : "фокус\r"
+    }, {
+      "tag_name" : "фоновая ситуация",
+      "tag_description" : "фоновая ситуация\r"
+    }, {
+      "tag_name" : "форма",
+      "tag_description" : "форма\r"
+    }, {
+      "tag_name" : "целесообразность",
+      "tag_description" : "целесообразность\r"
+    }, {
+      "tag_name" : "цель",
+      "tag_description" : "цель\r"
+    }, {
+      "tag_name" : "цена",
+      "tag_description" : "цена\r"
+    }, {
+      "tag_name" : "цитация",
+      "tag_description" : "цитация\r"
+    }, {
+      "tag_name" : "частота",
+      "tag_description" : "частота\r"
+    }, {
+      "tag_name" : "часть агенса",
+      "tag_description" : "часть агенса\r"
+    }, {
+      "tag_name" : "часть адресата",
+      "tag_description" : "часть адресата\r"
+    }, {
+      "tag_name" : "часть говорящего",
+      "tag_description" : "часть говорящего\r"
+    }, {
+      "tag_name" : "часть конечного посессора",
+      "tag_description" : "часть конечного посессора\r"
+    }, {
+      "tag_name" : "часть контрагента в фокусе внимания",
+      "tag_description" : "часть контрагента в фокусе внимания\r"
+    }, {
+      "tag_name" : "часть субъекта восприятия",
+      "tag_description" : "часть субъекта восприятия\r"
+    }, {
+      "tag_name" : "часть субъекта ментального состояния",
+      "tag_description" : "часть субъекта ментального состояния\r"
+    }, {
+      "tag_name" : "часть субъекта перемещения",
+      "tag_description" : "часть субъекта перемещения\r"
+    }, {
+      "tag_name" : "часть субъекта психологического состояния",
+      "tag_description" : "часть субъекта психологического состояния\r"
+    }, {
+      "tag_name" : "часть субъекта физиологического ощущения",
+      "tag_description" : "часть субъекта физиологического ощущения\r"
+    }, {
+      "tag_name" : "часть субъекта физиологической реакции",
+      "tag_description" : "часть субъекта физиологической реакции\r"
+    }, {
+      "tag_name" : "часть темы в фокусе внимания",
+      "tag_description" : "часть темы в фокусе внимания\r"
+    }, {
+      "tag_name" : "эвиденциальность",
+      "tag_description" : "эвиденциальность\r"
+    }, {
+      "tag_name" : "экспериенцер",
+      "tag_description" : "экспериенцер\r"
+    }, {
+      "tag_name" : "эксплетив",
+      "tag_description" : "эксплетив\r"
+    }, {
+      "tag_name" : "экспозиция",
+      "tag_description" : "экспозиция\r"
+    }, {
+      "tag_name" : "эмоция",
+      "tag_description" : "эмоция\r"
+    }, {
+      "tag_name" : "эталон",
+      "tag_description" : "эталон\r"
+    }, {
+      "tag_name" : "этикет",
+      "tag_description" : "этикет\r"
+    }, {
+      "tag_name" : "эффектор",
+      "tag_description" : "эффектор"
+    } ],
+    "create_tag" : false
+  } ],
+  "layers" : [ {
+    "name" : "webanno.custom.Semanticrole",
+    "features" : [ {
+      "name" : "Role",
+      "tag_set" : {
+        "name" : "roles",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "Role",
+      "type" : "webanno.custom.Semanticrole",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : "Semantic role",
+      "project_name" : "FrameBank",
+      "multi_value_mode" : "ARRAY",
+      "link_mode" : "WITH_ROLE",
+      "link_type_name" : "webanno.custom.SemanticroleRoleLink",
+      "link_type_role_feature_name" : "role",
+      "link_type_target_feature_name" : "target",
+      "traits" : "{\"multiplicityMode\":\"1-target-n-roles\",\"defaultSlots\":[],\"enableRoleLabels\":true,\"compareMode\":\"1-target-n-roles\",\"diffMode\":\"exclude\"}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Semantic role",
+    "type" : "span",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "TOKENS",
+    "overlap_mode" : "OVERLAP_ONLY",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : true,
+    "project_name" : "FrameBank",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Sentence",
+    "features" : [ ],
+    "uiName" : "Sentence",
+    "type" : "span",
+    "description" : null,
+    "enabled" : false,
+    "built_in" : true,
+    "readonly" : true,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : true,
+    "show_hover" : true,
+    "anchoring_mode" : "TOKENS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "NEVER",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : true,
+    "project_name" : "FrameBank",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : null
+  }, {
+    "name" : "de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token",
+    "features" : [ ],
+    "uiName" : "Token",
+    "type" : "span",
+    "description" : null,
+    "enabled" : false,
+    "built_in" : true,
+    "readonly" : true,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "CHARACTERS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "NEVER",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : false,
+    "project_name" : "FrameBank",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : null
+  }, {
+    "name" : "webanno.custom.Word",
+    "features" : [ {
+      "name" : "value",
+      "tag_set" : {
+        "name" : "Word",
+        "description" : null,
+        "language" : null,
+        "tags" : [ ],
+        "create_tag" : false
+      },
+      "uiName" : "value",
+      "type" : "uima.cas.String",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : null,
+      "project_name" : "FrameBank",
+      "multi_value_mode" : "NONE",
+      "link_mode" : "NONE",
+      "link_type_name" : null,
+      "link_type_role_feature_name" : null,
+      "link_type_target_feature_name" : null,
+      "traits" : "{\"editorType\":\"AUTO\",\"collapsedRows\":1,\"expandedRows\":1,\"defaultValue\":\"Word\"}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "Word",
+    "type" : "span",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "TOKENS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : true,
+    "project_name" : "FrameBank",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  }, {
+    "name" : "webanno.custom.CustomToken",
+    "features" : [ {
+      "name" : "pos",
+      "tag_set" : null,
+      "uiName" : "pos",
+      "type" : "webanno.custom.CustomToken",
+      "enabled" : true,
+      "visible" : true,
+      "include_in_hover" : false,
+      "required" : false,
+      "remember" : false,
+      "hideUnconstraintFeature" : false,
+      "description" : null,
+      "project_name" : "FrameBank",
+      "multi_value_mode" : "ARRAY",
+      "link_mode" : "WITH_ROLE",
+      "link_type_name" : "webanno.custom.CustomTokenPosLink",
+      "link_type_role_feature_name" : "role",
+      "link_type_target_feature_name" : "target",
+      "traits" : "{\"multiplicityMode\":\"1-target-n-roles\",\"defaultSlots\":[],\"enableRoleLabels\":true,\"compareMode\":\"1-target-n-roles\",\"diffMode\":\"exclude\"}",
+      "curatable" : true,
+      "rank" : 0
+    } ],
+    "uiName" : "type5:Token",
+    "type" : "span",
+    "description" : null,
+    "enabled" : true,
+    "built_in" : false,
+    "readonly" : false,
+    "attach_type" : null,
+    "attach_feature" : null,
+    "allow_stacking" : false,
+    "cross_sentence" : false,
+    "show_hover" : true,
+    "anchoring_mode" : "TOKENS",
+    "overlap_mode" : "NO_OVERLAP",
+    "validation_mode" : "ALWAYS",
+    "lock_to_token_offset" : false,
+    "multiple_tokens" : true,
+    "project_name" : "FrameBank",
+    "linked_list_behavior" : false,
+    "on_click_javascript_action" : null,
+    "traits" : "{\"coloringRules\":{\"rules\":[]}}"
+  } ],
+  "disableExport" : true,
+  "script_direction" : "LTR",
+  "created" : 1757688993298,
+  "updated" : 1757878948730,
+  "anonymous_curation" : false
+}
